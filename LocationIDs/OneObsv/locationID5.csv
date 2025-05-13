@@ -1,0 +1,2 @@
+lat,long,checkins,address,name,urlsave,date_pull,station_no,plug_type,plug_power,station_count,available_count,inuse_count,unavailable_count,network_info
+47.615963,-122.333477,7,"https://www.google.com/maps/dir//1823 Terry Ave., Seattle, WA, 98101","Aspira Seattle Apartment Homes | Seattle, WA | EV Station",https://www.plugshare.com/location/5,Tue May 13 17:02:25 2025,Station 1,NACS (Tesla),kW,20 Stations,0,0,0,Non-networked

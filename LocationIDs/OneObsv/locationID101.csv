@@ -1,0 +1,2 @@
+lat,long,checkins,address,name,urlsave,date_pull,station_no,plug_type,plug_power,station_count,available_count,inuse_count,unavailable_count,network_info
+38.417351,-82.456482,61,"https://www.google.com/maps/dir//116 5th Ave, Huntington, WV 25703","McDonald's | Huntington, WV | EV Station",https://www.plugshare.com/location/101,Tue May 13 17:03:37 2025,Station 1,J-1772,kW,2 Stations,0,0,0,Non-networked

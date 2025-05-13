@@ -1,0 +1,3 @@
+lat,long,checkins,address,name,urlsave,date_pull,station_no,plug_type,plug_power,station_count,available_count,inuse_count,unavailable_count,network_info
+33.94875,-118.156326,230,"https://www.google.com/maps/dir//7075 Firestone Blvd, Downey, CA 90241, USA","Office Max / Home Depot | Downey, CA | EV Station",https://www.plugshare.com/location/100,Tue May 13 17:02:04 2025,Station 1,J-1772,kW,4 Stations,0,0,0,Non-networked
+33.94875,-118.156326,230,"https://www.google.com/maps/dir//7075 Firestone Blvd, Downey, CA 90241, USA","Office Max / Home Depot | Downey, CA | EV Station",https://www.plugshare.com/location/100,Tue May 13 17:02:04 2025,Station 2,Wall,kW,1 Station,0,0,0,Non-networked
