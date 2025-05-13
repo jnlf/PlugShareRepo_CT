@@ -15,9 +15,6 @@ Explanation of Directories:
 - Updated Plug Share Locs 5/12/25
 - Updated plug share location ID urls
 - The Main R files are:
-- Final LaFleurJocelyn... --> contains functions for scraping and tests of the functions (both for parallel and non-parallel, make sure to download chrome headless driver from this link: https://googlechromelabs.github.io/chrome-for-testing/
+- WebScraping... --> contains functions for scraping and tests of the functions (both for parallel and non-parallel, make sure to download chrome headless driver from this link: https://googlechromelabs.github.io/chrome-for-testing/
 - PullValidLocations... --> update location IDs if you want
 - MergingScrapesandCleaning --> clean initial scraping
-- Important CSVs
-- full_locationnames_urls.csv --> all plugshare location IDs and their name labeled
-- plugsharelocs.csv --> urls locations
