@@ -11,6 +11,5 @@ Explanation of Directories:
 - IndivStates_CT_only/CT.csv
 - contains labeled urls for CT only
 - The Main R files are:
-- WebScraping... --> contains functions for scraping and tests of the functions (both for parallel and non-parallel, make sure to download chrome headless driver from this link: https://googlechromelabs.github.io/chrome-for-testing/
-- PullValidLocations... --> update location IDs if you want
-- MergingScrapesandCleaning --> clean initial scraping
+- RealTime... --> contains functions for scraping and tests of the functions (both for parallel and non-parallel, make sure to download chrome headless driver from this link: https://googlechromelabs.github.io/chrome-for-testing/
+  
