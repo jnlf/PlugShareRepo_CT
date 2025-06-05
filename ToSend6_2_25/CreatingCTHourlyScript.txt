@@ -1,0 +1,19 @@
+Creating Final Bash Script:
+
+
+#copy the following lines into your terminal
+ls -r RealTimeChunk/ > CT_RealTimeScrapeScript1.sh
+sed -i -e 's/^/node CTScraper.js /' CT_RealTimeScrapeScript1.sh
+sed -i -e '$a\'$'\n''python mergejsonfiles.py\nRscript correctjsonfiles.R\nrm -rf storage' CT_RealTimeScrapeScript1.sh
+sed -i -e '$a\'$'\n''sleep 1h' CT_RealTimeScrapeScript1.sh
+sed '0~12 s/$/\nsleep $(shuf -i 100-200 -n 1)/g' < CT_RealTimeScrapeScript1.sh > CT_RealTimeFINAL1.sh
+rm CT_RealTimeScrapeScript1.sh
+chmod +x CT_RealTimeFINAL1.sh
+
+
+
+#To run the file:
+./CT_RealTimeFINAL1.sh
+
+#to run the hourly server cron job would need
+watch -n0 ./CT_RealTimeFINAL1.sh
